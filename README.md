@@ -1,6 +1,6 @@
 # Spring Boot Base Project
 ### Overview
-This repository hosts a robust Spring Boot project template featuring essential functionalities for building secure and scalable applications. It includes comprehensive implementations such as JWT security, PayPal integration, caching, rate limiting, exception handling, and email verification.
+This repository hosts a robust Spring Boot project template featuring essential functionalities for building secure and scalable applications. It includes comprehensive implementations such as JWT security, PayPal integration, Redis caching, rate limiting, exception handling, and email verification.
 
 # Features :
 ## JWT Security 
