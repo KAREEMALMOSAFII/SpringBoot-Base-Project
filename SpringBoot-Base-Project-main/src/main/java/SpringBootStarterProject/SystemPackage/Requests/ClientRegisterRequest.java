@@ -1,12 +1,13 @@
-package SpringBootStarterProject.UserPackage.Request;
+package SpringBootStarterProject.SystemPackage.Requests;
 
 import SpringBootStarterProject.ManagingPackage.annotation.ValidPassword;
-import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.Column;
-import jakarta.validation.constraints.*;
+import jakarta.validation.constraints.Email;
+import jakarta.validation.constraints.NotBlank;
+import jakarta.validation.constraints.Pattern;
+import jakarta.validation.constraints.Size;
 import lombok.Builder;
 import lombok.Data;
-import org.springframework.format.annotation.NumberFormat;
 
 @Builder
 @Data
